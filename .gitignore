@@ -1,0 +1,11 @@
+#configurations editors jsons
+.vs
+
+#files
+.App.aps
+.App.sln
+.App.vcxproj
+.App.vcxproj.filters
+.App.vcxproj.user
+
+.git
