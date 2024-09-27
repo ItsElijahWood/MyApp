@@ -73,12 +73,12 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)App/include;$(IncludePath)</IncludePath>
     <ExecutablePath>C:\Users\ejthe\source\repos\App\Binaries\x64\Windows;$(ExecutablePath)</ExecutablePath>
-    <OutDir>C:\Users\ejthe\source\repos\App\Binaries\x64\Windows</OutDir>
+    <OutDir>C:\Users\ejthe\source\repos\MyApp\build\releases</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>$(SolutionDir)App/include;$(IncludePath)</IncludePath>
     <ExecutablePath>C:\Users\ejthe\source\repos\App\Binaries\x64\Windows;$(ExecutablePath)</ExecutablePath>
-    <OutDir>C:\Users\ejthe\source\repos\App\Binaries\x64\Windows</OutDir>
+    <OutDir>C:\Users\ejthe\source\repos\MyApp\build\releases</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -159,7 +159,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="Build.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

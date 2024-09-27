@@ -57,6 +57,5 @@
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="Build.lua" />
   </ItemGroup>
 </Project>

@@ -24,6 +24,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam,
       HDC hdc = BeginPaint(hWnd, &ps);
 
       const wchar_t* text = L"EJ's App";
+    
       TextOut(hdc, 50, 50, text, wcslen(text));
 
       EndPaint(hWnd, &ps);
